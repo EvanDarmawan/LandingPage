@@ -1,0 +1,19 @@
+.bg-adidas {
+    background: linear-gradient(to bottom, #111111, #2c2c2c);
+
+}
+
+.btn-adidas {
+    background: linear-gradient(to bottom, #111111, #2c2c2c);
+
+}
+
+.bg-contact {
+  background: linear-gradient(to bottom, #111, #2c2c2c);
+
+  width: 100%;
+}
+
+section {
+    padding-top: 4rem;
+}
