@@ -1,3 +1,13 @@
+/* font */
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+/* end Font */
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-adidas {
     background: linear-gradient(to bottom, #111111, #2c2c2c);
 
@@ -17,3 +27,52 @@
 section {
     padding-top: 4rem;
 }
+
+/* gallery */
+
+.card .btn {
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #222;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  background: linear-gradient(to bottom, #111111, #2c2c2c); /* gelap */
+  color: #ffffff; /* teks jadi putih */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+/* keranjang */
+.bg-hitam {
+
+  background-color: #121212;
+
+
+}
+/* Efek animasi */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out;
+}
+
+
+
